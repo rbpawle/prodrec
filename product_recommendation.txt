@@ -1,0 +1,23 @@
+product recommendation engine
+
+when user visits site, pixel fires off a post to our system. product recommendation takes it, builds a sku, and sends the sku off with the user's uuid to the RTDS
+
+inputs:
+advertiser_id
+sku
+time*
+uuid
+life cycle
+IP address
+
+outputs:
+uuid: sku pair
+
+this is for ecommerce only, to start.
+
+product recommendation only used when retargeting information is not available
+
+decision tree looks as such:
+
+advertiser_id
+business rules? => prospecting/post purchase
