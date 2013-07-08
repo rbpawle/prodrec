@@ -11,8 +11,6 @@ $should_set_cookie=0;
 //$domain=".designbloxlive.com";
 $domain="192.168.102.143";
 
-
-
 //#1 check optout cookie - if it is set don't do anything
 if (!isset($_COOKIE['optout']))
 {

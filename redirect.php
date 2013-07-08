@@ -15,7 +15,7 @@ function getClientIP() {
         return $clientIP;
 };
 
-function process_redir($_REQUEST) { 
+function process_redir() { 
         $redir = urldecode($_REQUEST['redir']);
         if ($redir != NULL) {   #if there's a redirect, set the MM_UUID and go there
                 #check to see if we have 'http://' or 'http://' at the beginning
